@@ -1,0 +1,33 @@
+size( 900 , 900);
+background(255);
+
+
+fill(#00D31A);
+textSize(45);
+translate(width /2, height /2);
+text("V",0,0);
+textAlign(LEFT,CENTER);
+text("V",5,56);
+text("V",62,0);
+text("V",(-77),50);
+text("V",100,90);
+text("V",200,84);
+text("V",150,34);
+text("V",172,241);
+text("V",259,167);
+text("V",(-230),27);
+text("V",139,300);
+text("V",350,236);
+text("V",(-302),30);
+text("V",420,(-70));
+text("V",120,27);
+text("V",(-298),110);
+text("V",36,(-120));
+text("V",(-10),320);
+text("V",60,(-210));
+text("V",209,140);
+text("V",(-380),169);
+text("V",424,210);
+text("V",(-110),230);
+text("V",129,(-220));
+text("V",260,342);
