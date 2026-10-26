@@ -58,15 +58,15 @@ while ( dream < 15) {
 }
 
 //resetMatrix();
-//PImage zoz = loadImage("07-3.png");
+PImage zoz = loadImage("07-3.png");
 
-//int zdream = 0;
-//  translate(width*.5, height*.5);
-//while (zdream < 25);{
-//  image(zoz,500,450,zoz.width*0.25,zoz.height*0.25);
-//  println ("zoz");
-//  zdream = zdream +1;
-//  rotate(TAU/10);
-//}
+int zdream = 0;
+translate(width*.5, height*.5);
+while (zdream < 25){
+  image(zoz,500,450,zoz.width*0.25,zoz.height*0.25);
+  println ("zoz");
+  zdream = zdream +1;
+  rotate(TAU/10);
+}
 
 save ( "output07.png");

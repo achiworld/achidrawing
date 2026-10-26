@@ -49,4 +49,8 @@ void draw(){
   yA+=1;
   yB+=1;
   yC+=1;
+  if(frameCount < 25){
+    println (frameCount);
+    saveFrame ("frames/output_####.png");
+  }
 }

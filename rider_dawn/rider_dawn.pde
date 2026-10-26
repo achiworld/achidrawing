@@ -28,11 +28,11 @@ resetMatrix();
 PImage Tblade = loadImage("01-2.png");
 
 int badd = 0;
+translate(width*.15,height*.25);
 while ( badd < 5){ 
   image(Tblade,120,5,Tblade.width*0.45 , Tblade.height*0.45 );
   println ("Tblade");
   badd = badd +1;
- translate(width*.15,height*.25);
 }
 
 resetMatrix();
