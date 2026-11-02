@@ -43,6 +43,7 @@ float y18 =230;
 
 void setup(){
  size(1000,1000); 
+ //frameRate(1);
 }
 
 void draw(){
@@ -75,7 +76,7 @@ void draw(){
   line(x20,y14,x34,y12);
   line(x21,y16,x,y14);
   
-  x+=1;
+  x+=15;
   x2+=1;
   x3+=1;
   x4+=1;
@@ -100,7 +101,7 @@ void draw(){
   x32+=1;
   x34+=1;
   
-  y+=1;
+  y+=15;
   y2+=1;
   y3+=1;
   y4+=1;
@@ -112,9 +113,10 @@ void draw(){
   y14+=1;
   y16+=1;
   y18+=1;
-
-  if(frameCount < 25){
-    println (frameCount);
-    saveFrame ("frames/output_####.png");
+  
+if(frameCount < 100){
+    saveFrame("frames/frame_####.png");
+  } else {
+    //noLoop();
   }
 }

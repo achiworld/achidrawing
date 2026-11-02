@@ -49,5 +49,11 @@ void draw() {
       y=-25;
     x=-25;
   }
+if(frameCount < 100){
+    saveFrame("frames/frame_####.png");
+  } else {
+    //noLoop();
+  }
 }
+
   

@@ -42,9 +42,9 @@ void draw() {
     x=-25;
   }
   
-  if(frameCount < 25){
+  if(frameCount < 100){
     saveFrame("frames/frame_####.png");
   } else {
-    noLoop();
+    //noLoop();
   }
 }

@@ -36,7 +36,7 @@ void draw(){
   stroke(#FFFAFD);
   line(xF,yB,20,350);
  
-  x0+=1;
+  x0+=5;
   x40+=1;
   xA+=1;
   xB+=1;
@@ -45,12 +45,14 @@ void draw(){
   xE+=1;
   xF+=1;
   
-  y0+=1;
+  y0+=5;
   yA+=1;
   yB+=1;
   yC+=1;
-  if(frameCount < 25){
-    println (frameCount);
-    saveFrame ("frames/output_####.png");
+  
+  if(frameCount < 100){
+    saveFrame("frames/frame_####.png");
+  } else {
+    //noLoop();
   }
 }
